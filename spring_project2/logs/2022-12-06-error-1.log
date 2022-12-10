@@ -1,0 +1,42 @@
+2022-12-06T08:55:48.991+0700  ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+            []- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+2022-12-06T14:27:21.308+0700  ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter -
+            []- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field categoryExtentRepository in com.tass.productservice.service.CategoryService required a bean of type 'com.tass.productservice.database.repository.CategoryExtentRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.tass.productservice.database.repository.CategoryExtentRepository' in your configuration.
+
+2022-12-06T15:26:47.919+0700  ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper -
+            []- bach4 - Connection is not available, request timed out after 20044ms.
+2022-12-06T15:26:47.920+0700  ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper -
+            []- No operations allowed after connection closed.
+2022-12-06T15:32:53.843+0700  ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper -
+            []- bach4 - Connection is not available, request timed out after 20057ms.
+2022-12-06T15:32:53.844+0700  ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper -
+            []- No operations allowed after connection closed.
